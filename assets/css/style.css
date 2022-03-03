@@ -1,0 +1,124 @@
+/*Hier sind allgemeine Codes für das HTML-Dokument*/
+body {
+    background-image:linear-gradient(90deg, #444ac4 0%, #4f3292 100%);
+    font-family: sans-serif;
+}
+
+/*Hier sind die Codes für den Header Bereich*/
+header {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding-top: 0;
+    text-shadow: 5px 5px 5px ghostwhite;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.37rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-shadow: 5px 5px 5px ghostwhite;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 0.5rem;
+    box-shadow: ghostwhite 10px 10px 5px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+#download {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+header > img {
+    width: 130px;
+    position: absolute;
+    left: 16%;
+}
+
+/*Hier sind die Codes für den Main Bereich*/
+section {
+    width: 1050px;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 12rem auto;
+    display: inline-block;
+}
+
+li {
+    color: #f7c46d;
+    font-size: 1.8rem;
+    margin: 1rem;
+    width: 600px;
+}
+
+figure {
+    margin: 3rem auto;
+    float: right;
+    position: relative;
+}
+
+figcaption {
+    width: 90%;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+.kriegHinweis {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.bookBeschreibung {
+    color: white;
+    font-size: 1.2rem;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+/*Hier sind die Codes für den Footer Bereich*/
+
+@media screen and (max-width: 1000px) {
+        section,
+        .bookBeschreibung,
+        .kriegHinweis {
+            margin: 10px;
+            width: 100%;
+        }
+
+        ul {
+            margin: 10px;
+        }
+
+        figure {
+            float: left;
+            width: 20%;
+            margin: 20px;
+        }
+    }
